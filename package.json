@@ -1,0 +1,34 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Boilerplate api-server.ts",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon dist/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrRobot420/boilerplate-ts-api-server.git"
+  },
+  "keywords": [
+    "Boilerplate",
+    "TypeScript",
+    "API",
+    "Express",
+    "Server"
+  ],
+  "author": "MrRobot420",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRobot420/boilerplate-ts-api-server/issues"
+  },
+  "homepage": "https://github.com/MrRobot420/boilerplate-ts-api-server#readme"
+}

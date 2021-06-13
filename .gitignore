@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+tsconfig.json
+/dist
+/config/default.json
+/config/development.json
+/config/production.json
