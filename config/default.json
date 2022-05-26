@@ -1,3 +1,4 @@
 {
-    "API_PORT": "5000"
+    "PORT": "3000",
+    "LOG_FORMAT": ":method :url :status :response-time ms"
 }
