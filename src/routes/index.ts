@@ -1,8 +1,8 @@
 import express from 'express'
 const routes = express.Router()
 
-import ideaRouter from './ideas'
+import questionRouter from './questions'
 
-routes.use(ideaRouter)
+routes.use(questionRouter)
 
 export default routes
