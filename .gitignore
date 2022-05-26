@@ -1,3 +1,10 @@
 node_modules
 package-lock.json
 /dist
+.secrets.json
+.secrets-staging.json
+.secrets-stage.json
+.secrets-production.json
+.secrets-prod.json
+.secrets-development.json
+.secrets-dev.json

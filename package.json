@@ -1,5 +1,5 @@
 {
-  "name": "api-server",
+  "name": "boilerplate-api-server",
   "version": "1.0.0",
   "description": "Boilerplate api-server.ts",
   "main": "app.js",

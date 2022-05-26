@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express'
-import config from 'config'
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const webhookSecret = config.get('API_SECRET')
+import secrets from '../secrets'
+
+const webhookSecret = secrets.API_SECRET
 
 const authMiddleware = (req: Request, res: Response, next: NextFunction): Response | void => {
     if (req.headers['x-api-key'] === webhookSecret) {
